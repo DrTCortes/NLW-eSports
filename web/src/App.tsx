@@ -1,20 +1,10 @@
-interface ButtonsProps{
-title: string
-}
-
-function Button(props: ButtonsProps){
-  return(
-    <button>
-      {props.title}
-    </button>
-  )
-}
+import './styles.css';
 
 function App() {
 
   return (
     <div>
-      <Button title="send"/>
+      
     </div>
   )
 }
